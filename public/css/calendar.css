@@ -1,0 +1,198 @@
+.day-blank {
+	background-color: #efefef;
+}
+.day-sun .day{
+	color:red;
+}
+.day-sat .day{
+	color: blue;
+}
+.calendar table td {
+	padding: 3px;
+	border: solid 1px #999;
+}
+.calendar table td:before {
+	display: block;
+	float: left;
+	height: 50px;
+	content: "";
+}
+.calendar table td .day {
+	margin-bottom: 0;
+}
+.calendar table th {
+	text-align: center;
+	border: solid 1px #999;
+}
+.day-close {
+	background-color: #FF7F50;
+}
+.calendar table {
+	table-layout: fixed;
+}
+.calendar table .comment{
+	font-size: small;
+}
+.timeWrap {
+    display: flex;
+}
+.timeBox {
+    display: flex;
+    align-items: baseline;
+}
+.scheduleText {
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+}
+.scheduleText span {
+    width: 5%;
+}
+.timeBox span {
+    padding: 0 10px;
+}
+#schedule {
+    border-top: 1px solid #b9b9b9;
+    padding: 20px 10px;
+}
+.scheduleBox {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: 1px solid #eee;
+}
+.schedule {
+    max-width: 80%;
+}
+.time {
+    padding: 5px 10px;
+    background: #ffe31b;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+a.delete {
+    background: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+td.day-blank .edit {
+    display: none;
+}
+td.day-blank .btn {
+    display: none;
+}
+.calendar a.edit {
+    background: #61dac9;
+    color: #fff;
+    padding: 0px 5px;
+    border-radius: 3px;
+}
+.calendar .btn {
+    background: #30ec36;
+    color: #fff;
+    padding: 0 5px;
+    font-size: 14px;
+    line-height: 1.4;
+    display: block;
+}
+td.today {
+    background: #ffe31b;
+}
+.for_edit {
+    margin: 10px 0;
+}
+.for_edit a {
+    background: #61dac9;
+    color: #fff;
+    padding: 0px 5px;
+    border-radius: 3px;
+}
+#app .scheduleBox {
+    align-items: flex-start;
+    padding: 10px 0;
+}
+button.updateBtn {
+    background: #61dac9;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    padding: 3px 10px;
+    width: 100%;
+}
+.editBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#app .scheduleBox .delete.btn {
+    padding: 0 10px;
+}
+button#ajaxDelete {
+    background: #333;
+    padding: 0px 10px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+#schedule .card-body {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+#schedule .timeWrap {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+#schedule .timeBox {
+    margin-bottom: 10px;
+}
+#schedule .scheduleText span {
+    width: 20%;
+    text-align: center;
+}
+#schedule input#schedule_text {
+    width: 80%;
+}
+#schedule .ajaxStoreBtn {
+    margin: auto;
+}
+.calendar table td.active {
+    border: 2px solid #888;
+}
+#scheduleArea .scheduleBox {
+    flex-wrap: wrap;
+}
+#scheduleArea .editBlock {
+    flex-direction: row;
+    align-items: center;
+}
+#scheduleArea .update.btn {
+    padding: 0 10px;
+}
+.updateBtnTop {
+	  background: #61dac9;
+    padding: 0px 10px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+#scheduleArea .ajaxUpdate {
+    background: #61dac9;
+    padding: 0px 10px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+#scheduleArea .ajaxCancel {
+    background: #333;
+    padding: 0px 10px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+.user_name {
+    width: 100%;
+    font-weight: bold;
+    font-size: 12px;
+}
